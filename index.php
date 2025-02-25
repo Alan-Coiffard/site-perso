@@ -52,37 +52,36 @@
 		<a class="noLien" href="http://portfolio.alan-coiffard.ovh">
 			<h1 class="text-center">Mes photos</h1>
 			<div class="text-center">Et mon site</div>
-
-			<?php
-			require 'implement/caroussel.php';
-
-			$caroussel = new caroussel;
-			$nom = "caroussel";
-			$parsed = $caroussel->recupInfos($nom);
-			?>
-			<div class="cont">
-				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-					<div class="carousel-inner">
-						<?php
-						foreach ($parsed->{'images'} as $key => $value) {
-						?>
-							<div class="carousel-item <?php if ($key == 1) { ?> active <?php } ?> ">
-								<img src="./<?= $value ?>" class="d-block w-100" alt="...">
-							</div>
-						<?php } ?>
-					</div>
-					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Previous</span>
-					</button>
-					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Next</span>
-					</button>
-				</div>
-			</div>
-
 		</a>
+
+		<?php
+		require 'implement/caroussel.php';
+
+		$caroussel = new caroussel;
+		$nom = "caroussel";
+		$parsed = $caroussel->recupInfos($nom);
+		?>
+		<div class="cont">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<?php
+					foreach ($parsed->{'images'} as $key => $value) {
+					?>
+						<div class="carousel-item <?php if ($key == 1) { ?> active <?php } ?> ">
+							<img src="./<?= $value ?>">
+						</div>
+					<?php } ?>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
 	</section>
 
 	<section id="projets">
@@ -156,12 +155,6 @@
 			}
 		});
 
-	});
-
-	$(function() {
-		$('#toggle-event').change(function() {
-			document.body.className = $(this).data($(this).prop("checked").toString());
-		});
 	});
 </script>
 
