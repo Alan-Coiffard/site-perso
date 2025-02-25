@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow-x: hidden;
+}
+section {
+	height: 70%;
+	overflow: auto;
+}
+
+aside {
+	height: 30%;
+}
+
+section, aside {
+	width: 100%;
+	background-color: grey;
+	border: solid black 3px;
+}
+
+ul {
+	list-style: none;
+}
+
+h3 {
+	background-color: black;
+	color: white;
+	padding: 2px;
+}

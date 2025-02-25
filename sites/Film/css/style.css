@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: 'Lato';
+  src: "font/Lato-Regular" format('ttf');
+}
+
+
+@font-face { 	font-family: "test"; 	src: url('font/Sofia-Regular.ttf'); }
+
+html {
+  font-family: 'Lato';
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.card {
+	background-color: grey;
+	color: white;
+}
+
+// Class
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

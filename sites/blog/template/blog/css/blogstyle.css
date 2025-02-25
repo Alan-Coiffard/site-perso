@@ -1,0 +1,306 @@
+body {
+  font-family: 'Timeless';
+  position: relative;
+  height: 100vh;
+  background: url("../../../image/DSC07063.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.noflow {
+  overflow: hidden;
+}
+
+section {
+  height: 60vh;
+  overflow: auto;
+}
+
+h1, h3
+{
+    text-align:center;
+}
+h3
+{
+    background-color:black;
+    color:white;
+    font-size:0.9em;
+    margin-bottom:0px;
+}
+
+ul {
+    list-style: none;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.modifA {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input, textarea, select, option, button {
+ background-color:#FFF3F3;
+ }
+input, textarea, select, button {
+ padding:3px;
+ border:1px solid #F5C5C5;
+ border-radius:5px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+select {
+ margin-top:10px;
+ }
+input[type=radio] {
+ background-color:transparent;
+ border:none;
+ width:10px;
+ }
+input[type=submit], input[type=reset] {
+ margin-left:5px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ }
+ input, button {
+  width: 200px;
+ }
+
+ textarea {
+  margin-bottom: 10px;
+ }
+
+section {
+  overflow: auto;
+  height: 70%;
+  border: hidden;
+}
+.news-h
+{
+    background-color: #A67F37;
+    color: black;
+    font-size:1.5em;
+    margin-bottom:0px;
+    text-align:center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.news-p
+{
+    background-color:rgba(174, 180, 191, 1);
+    margin-top:0px;
+    padding: 7px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.news-credit{
+  text-align: center;
+  background-color: rgba(115, 92, 25,0.9);
+}
+
+.news
+{
+    width:60%;
+    margin:auto;
+    box-shadow: 6px 5px 5px rgba(100,100,100,1);
+    border-radius: 10px;
+}
+
+.news-a
+{
+  color: black;
+  text-decoration: none;
+}
+
+.droite {
+    float: right;    
+}
+
+
+
+
+/*
+    *  STYLE 7
+    */
+
+    #style-7::-webkit-scrollbar-track
+    {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: transparent;
+    border-radius: 10px;
+    }
+
+    #style-7::-webkit-scrollbar
+    {
+    width: 10px;
+    background-color: transparent;
+    }
+
+    #style-7::-webkit-scrollbar-thumb
+    {
+    border-radius: 10px;
+    border:0.5px solid grey;
+    background-image: -webkit-gradient(linear,
+                     left bottom,
+                     left top,
+                     color-stop(0.44, rgb(63, 52, 12)),
+                     color-stop(0.72, rgb(126, 95, 54)),
+                     color-stop(0.86, rgb(167, 171, 183)));
+    }
+
+h3, p {
+    padding: 5px;
+}
+
+.connexion {
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 7px;
+  margin-right: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.connexion a {
+  margin: 0;
+  color: black;
+}
+
+.aa {
+  margin: 0;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.insc {
+  border-bottom: 1px solid white;
+}
+
+.connexion {
+
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+
+.commentaire {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.labelC {
+    margin-right: 10px;
+}
+
+.textareaC {
+    margin-right: 10px;    
+}
+
+.inputC {
+    padding-left: 10px;
+}
+
+.addComm {
+    background-color: rgba(115, 92, 25,0.9);
+}
+
+.com {
+    height: auto;
+    background-color: rgba(174, 180, 191, 1);
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.blockCom {
+    height: 275px;
+    overflow: auto;
+    margin: 10px;
+}
+
+/*/ test /*/
+
+h1 {
+  font-family: 'AAC';
+  text-align: center;
+  font-size: 3em;
+  padding-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: rgba(196,255,140,0.5);
+  border: none;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0;
+  color: black;
+  margin: 10px;
+  box-shadow: 6px 5px 5px rgba(50,50,50,1);
+
+}
+
+.bas {
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: rgba(196,255,140,1);
+  
+}
+
+h1 {
+  margin: 10px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

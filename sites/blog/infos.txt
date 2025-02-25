@@ -1,0 +1,5 @@
+beige : #DFC4B1
+bleu foncé : #84D9C9
+bleu claire : #B6F2E7
+jaune claire : #F2D129
+jaune foncé : #D9A404

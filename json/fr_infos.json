@@ -1,0 +1,143 @@
+{
+    "links": {
+        "name": "liens",
+        "text": "",
+        "list": [
+            "www.alan-coiffard.ovh",
+            "www.linkedin.com/in/alan-coiffard-924033172"
+        ]
+    },
+    "resume": {
+        "name": "Résumé professionnel",
+        "text": "Informaticien spécialisé dans le développement, titulaire d'un master et disposant d'uneexpérience internationale. Expertise dans le développement web, le développementd'applications et l'IA. Compétent en développement front-end et back-end, avec une approcheagile pour fournir des solutions innovantes.",
+        "list": []
+    },
+    "skills": {
+        "name": "Compétences",
+        "text": "",
+        "list": [
+            "Jira", 
+            "Confluence",
+            "Agile Scrum",
+            "Javascript tools (ReactJS, Node.JS,...)",
+            "CSS/SCSS",
+            "API integration",
+            "Java"
+        ]
+    },
+    "education": {
+        "name": "Education",
+        "text": "",
+        "list": [
+            {
+                "university": "UBO & Universitée d'Umeå",
+                "city": "Brest & Umeå",
+                "level": "Master",
+                "spe": "Développement informatique",
+                "date": "2024"
+            },
+            {
+                "university": "UBO",
+                "city": "Brest",
+                "level": "Licence",
+                "spe": "Développement informatique",
+                "date": "2022"
+            },
+            {
+                "university": "Lycée F. Le Dantec",
+                "city": "Lannion",
+                "level": "BTS",
+                "spe": "Développement informatique",
+                "date": "2021"
+            },
+            {
+                "university": "Lycée Colbert",
+                "city": "Lorient",
+                "level": "Baccalauréat",
+                "spe": "STI2D",
+                "date": "2018"
+            }
+        ]
+    },
+    "xp": {
+        "name": "Expérience profesionnel",
+        "text": "",
+        "list": [ 
+            {
+                "title": "Développeur IA",
+                "date_start": "02/2024",
+                "date_end": "06/2024",
+                "company": "Region Vasterbotten",
+                "location": "Umea, Sweden",
+                "list": [
+                    "Créer une IA pour répondre à une question médicale",
+                    "Création d'un système d'évaluation du chatbot et de prévention de la régression"
+                ]
+            },
+            {
+                "title": "DÉVELOPPEUR FRONT-END",
+                "date_start": "03/2023",
+                "date_end": "08/2023",
+                "company": "bioMérieux",
+                "location": "Rennes, France",
+                "list": [
+                    "Développer des fonctionnalités front-end",
+                    "Concevoir et intégrer un tutoriel intégré à l'application pour les clients",
+                    "Collaborer étroitement avec les designers UX/UI pour intégrer des interfaces en sites web fonctionnels",
+                    "Développer des composants réutilisables"
+                ]
+            },
+            {
+                "title": "DÉVELOPPEUR WEB FULL STACK",
+                "date_start": "05/2022",
+                "date_end": "06/2022",
+                "company": "Simicar",
+                "location": "Brest, France",
+                "list": [
+                    "Développer un module ERP pour la planification des réunions clients en utilisant PHP et Dolibarr.",
+                    "Intégrer OpenStreetMap et Leaflet pour une visualisation dynamique des itinéraires.",
+                    "Améliorer les interactions utilisateurs avec une solution de gestion des réunions intuitive."
+                ]
+            },
+            {
+                "title": "DÉVELOPPEUR WEB FULL STACK",
+                "date_start": "05/2020",
+                "date_end": "06/2020",
+                "company": "APDAMC",
+                "location": "Rennes, France",
+                "list": [
+                    "Développement d'un site web basé sur Joomla pour une association d’aéronautique.",
+                    "Conception d'une plateforme pour mettre en valeur la mission et les initiatives de l'association.",
+                    "Amélioration de l'expérience utilisateur grâce à une conception axée sur l'ergonomie et l'esthétique."
+                ]
+            }  
+        ]
+    },
+    "language": {
+        "name": "Langues",
+        "text": "",
+        "list": [
+            {
+                "type": "Français",
+                "level": "Langue maternelle",
+                "certif": ""
+            },
+            {
+                "type": "Anglais",
+                "level": "Courant",
+                "certif": "CLES - B2"
+            }
+        ]
+    },
+    "others": {
+        "name": "autre",
+        "text": "",
+        "interest": [
+            "Basket-ball",
+            "Photographie",
+            "Jeux vidéo"
+        ],
+        "age" : "13/01/1999",
+        "permis": "permis B"
+    }
+}

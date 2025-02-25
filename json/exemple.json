@@ -1,0 +1,10 @@
+{
+    "titre"     : "Titre...",
+    "text"      : "Text....",
+    "images"    : {
+        "1": "images/   .jpg",
+        "2": "images/   .jpg",
+        "3": "images/   .jpg",
+        "4": "images/   .jpg"     
+    }
+}

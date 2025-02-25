@@ -1,0 +1,145 @@
+/* Start */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/* font */
+
+@font-face {
+ font-family: "azonix";
+ src: url("font/Azonix.otf") format("otf")
+}
+
+@font-face {
+ font-family: "BVR";
+ src: url("font/BonVoyageReg.otf") format("otf")
+}
+
+@font-face {
+ font-family: "BVT";
+ src: url("font/BonVoyageThin.otf") format("otf")
+}
+
+/* Background */
+
+body {
+  background-color: black;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.card {
+  background-color: rgba(10,10,10,0.5);
+}
+
+.card-text {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.col {
+height: 600px;
+}
+
+body::after {
+  margin: 10px;
+}
+
+body::before {
+  background: url(../images/_DSC5876-2.jpg) no-repeat center center;
+  background-attachment: fixed;
+  content: '';
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: fixed; 
+  -webkit-background-size:  cover;
+  -moz-background-size:     cover;
+  -o-background-size:       cover;
+  background-size:          cover;
+  -webkit-filter: blur(5px);
+  -moz-filter:    blur(5px);
+  -o-filter:      blur(5px);
+  -ms-filter:     blur(5px);
+  filter:         blur(5px);
+}
+
+aside {
+  height: 100vh;
+  position: fixed;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  transition: box-shadow 500ms;
+}
+
+aside ul li {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+aside ul li:hover {
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+}
+aside ul li:link {
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+}
+
+.text-justify {
+  text-align: justify;
+}
+/* MENU */
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+
+ul img {
+  position: ;
+}
+
+.noLien {
+	text-decoration: none;
+  color: inherit;
+}
+
+.noLien:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cardhover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  transition: box-shadow 500ms;
+}
+
+.cardhover:hover {
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+}
+/* Main */
+
+main {
+  width: 100%;
+  height: 100%;
+
+  padding-top: 5px;
+}
+
+.mrgtop {
+  margin-top: 20px; 
+}
+
+
+.fond {
+  /*background-color: rgba(200,100,200,0.3);*/
+  border-radius: 10px;
+  padding: 10px;
+
+  margin: 10px;
+}
+
+.carousel-item img:hover {
+  cursor: zoom-in;
+}
+		

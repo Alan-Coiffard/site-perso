@@ -1,0 +1,11 @@
+{
+	"id"		: "4",
+    "titre"     : "Site Web dynamique",
+    "text"      : "En première année de BTS nous avons appris à utiliser php et javaScript ce qui nous a conduit à la création d'un site web dynamique. Pour ce deuxième projet en BTS SN, j'ai voulu créer un blog avec un chat.",
+    "images"    : {
+        "1": "images/btsDyn/Capture1.PNG",
+        "2": "images/btsDyn/Capture2.PNG",
+        "3": "images/btsDyn/Capture3.PNG"    
+    },
+    "lien"		: "http://www.alan-coiffard.ovh/sites/blog"
+}
