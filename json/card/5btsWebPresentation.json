@@ -1,7 +1,7 @@
 {
 	"id"		: "3",
     "titre"     : "Site web de présentation",
-    "text"      : "Voici le premier projet durant mon BTS SNIR. Nous devions concevoir un site web en anglais avec un choix libre sur le thème du site. J'ai donc choisi de créer un site de présentation pour qu'il soit utile.",
+    "text"      : "Voici le premier projet réalisé durant mon BTS SNIR. Nous devions concevoir un site web en anglais avec un thème libre. J'ai choisi de créer un site de présentation afin qu'il soit à la fois pertinent et utile. Vous êtes actuellement dessus.",
     "images"    : {
         "1": "images/background.jpg"   
     },

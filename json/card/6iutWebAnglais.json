@@ -1,7 +1,7 @@
 {
 	"id"		: "1",
     "titre"     : "Premier projet web",
-    "text"      : "Il s'agit un site qui nous a été demandé de faire en première année d'IUT en anglais. Nous devions faire un site pour une entreprise de photographie.",
+    "text"      : "Il s'agit d'un site web réalisé en première année d'IUT dans le cadre d'un projet en anglais. Nous devions concevoir un site pour une entreprise de photographie.",
     "images"    : {
         "1": "images/background.jpg"
     },

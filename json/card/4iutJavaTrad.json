@@ -1,7 +1,7 @@
 {
 	"id"		: "2",
     "titre"     : "Traducteur UML To Java",
-    "text"      : "Ce projet est le projet principal réalisé en première année d'IUT. Il s'agit d'un projet en Java où l'on a dû créer un traducteur de diagramme UML en code java fonctionnel.",
+    "text"      : "Ce projet était le projet principal de ma première année d'IUT. Il consistait à développer, en Java, un traducteur de diagrammes UML en code Java fonctionnel.",
     "images"    : {
         "1": "images/background.jpg" 
     },

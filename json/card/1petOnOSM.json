@@ -1,7 +1,7 @@
 {
 	"id"		: "6",
     "titre"     : "Pet On OpenStreetMap",
-    "text"      : "Lors de ma second années en BTS SNIR, nous avons eu l'occasion de nous lancer dan un projet en groupe. Ce projet avait pour but de développer une solution afin de localiser les animaux de compagnie  de l'utilisateur lorsqu’ils quittent un lieu prédéfini par le propriétaire ainsi que de suivre l’itinéraire des animaux afin de connaître leurs lieux de passages fréquents, mais aussi par la même occasion de pouvoir les retrouver.",
+    "text"      : "Lors de ma seconde année en BTS SNIR, nous avons eu l'occasion de travailler sur un projet de groupe. Ce projet avait pour objectif de développer une solution permettant de localiser les animaux de compagnie des utilisateurs lorsqu'ils quittent un périmètre défini par leur propriétaire, ainsi que de suivre leur itinéraire afin d'identifier leurs lieux de passage fréquents. L'objectif était également de faciliter leur recherche en cas de perte.",
     "images"    : {
         "1": "images/projet6/WIMP1.png",
         "2": "images/projet6/WIMP2.png",
