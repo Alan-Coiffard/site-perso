@@ -30,7 +30,6 @@
 		<div class="link">
 			<ul class="social-icons">
 				<li><a class="github" href="https://github.com/Alan-Coiffard"><i class="fa fa-github"></i></a></li>
-				<li><a class="www" href="https://portfolio.alan-coiffard.ovh"><i class="fa fa-globe"></i></a></li>
 				<li><a class="linkedin" href="https://www.linkedin.com/in/alan-coiffard-924033172"><i class="fa fa-linkedin"></i></a></li>
 			</ul>
 		</div>
