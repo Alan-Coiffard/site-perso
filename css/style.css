@@ -130,10 +130,23 @@ body::after {
   transition: transform .6s ease-in-out;
   max-height: 50vh;
   object-fit: cover;
+
+  text-align-last: center;
 }
 
 .carousel-item img {
-  height: inherit;
+  height: 50vh;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  border: none;
+  background: none;
+  color: black;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: black;
+  opacity: 1;
 }
 
 .cont {
@@ -457,6 +470,7 @@ main {
   position: relative;
   bottom: -10%;
 }
+
 @media (min-width:991px) {
   .link {
     bottom: -50%;
